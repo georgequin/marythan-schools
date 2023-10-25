@@ -1,4 +1,4 @@
-<?php 
+<?php
 $name = $_REQUEST['name'];
 $email = $_REQUEST['email'];
 $number = $_REQUEST['number'];
@@ -10,8 +10,8 @@ if(strpos($_SERVER['HTTP_REFERER'], "contact")) {
     $title = "Request for Admission";
 }
 
-$to = "info.jbuacademy@gmail.com";
-$from = "J.B.U. Academy <info@jbuacademy.dx.am>";
+$to = "georgequin19@gmail.com";
+$from = "Marythan Int'l School <georgequin19@gmail.com>";
 
 $msg = '<!DOCTYPE html>';
 $msg .= '<html>';
@@ -45,7 +45,6 @@ $msg .= '</html>';
 
 $headers = "From: ".$from."\r\n";
 $headers .= "Reply-To: ".$from."\r\n";
-$headers .= "CC: aftabalam1101@gmail.com\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 

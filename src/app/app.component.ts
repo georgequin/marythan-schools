@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import firebase from "firebase/compat";
+import firebase from "firebase/compat/app";
 import initializeApp = firebase.initializeApp;
 
 @Component({

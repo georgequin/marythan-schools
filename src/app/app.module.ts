@@ -25,11 +25,22 @@ import { SentComponent } from './contact/sent/sent.component';
 const routes: Routes = [
   {path: "", component: HomeComponent},
   {path: "about", component: AboutComponent},
-  {path: "admission", component: AdmissionComponent, loadChildren: './admission/admission.module#AdmissionModule'},
+  {path: 'admission',
+    loadChildren:  () => import('./admission/admission.module').then((m) => m.AdmissionModule),
+  },
+  {path: 'contact',
+    loadChildren:  () => import('./contact/contact.module').then((m) => m.ContactModule),
+  },
+  {path: '',
+    loadChildren:  () => import('./home/home.module').then((m) => m.HomeModule),
+  },
+
+
+  // {path: "admission", component: AdmissionComponent, loadChildren: './admission/admission.module#AdmissionModule'},
   {path: "faculty", component: FacultyComponent},
   {path: "sp-vc", component: SpVcComponent},
-  {path: "contact", component: ContactComponent, loadChildren: './contact/contact.module#ContactModule'},
-  {path: "", loadChildren: './home/home.module#HomeModule'}
+  // {path: "contact", component: ContactComponent, loadChildren: './contact/contact.module#ContactModule'},
+  // {path: "", loadChildren: './home/home.module#HomeModule'}
 ];
 @NgModule({
   declarations: [

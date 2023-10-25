@@ -8,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class GalleryComponent implements OnInit {
 
   figures = [
-    "assets/img/school/1.jpg",
-    "assets/img/school/2.jpg",
-    "assets/img/school/3.jpg",
-    "assets/img/school/4.jpg"
+    "assets/img/graduation.jpeg",
+    "assets/img/group1.jpeg",
+    "assets/img/compound.jpeg",
+    "assets/img/group2.jpeg"
   ];
   constructor() { }
 
