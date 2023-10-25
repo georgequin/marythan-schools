@@ -8,11 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class TeamComponent implements OnInit {
 
   team = [
-    {image: "assets/img/avatar/lg/1.jpg", name: "Md. Salim", profession: "Director", description: "An B.Ed qualified staff. For further details contact us or visit us at J.B.U. Academy", facebook: '', twitter: '', googlePlus: '', linkedin: ''},
-    {image: "assets/img/avatar/lg/2.jpg", name: "G. Sharma", profession: "Vice Chancellor", description: "An B.Ed qualified staff. For further details contact us or visit us at J.B.U. Academy", facebook: '', twitter: '', googlePlus: '', linkedin: ''},
-    {image: "assets/img/avatar/lg/3.jpg", name: "Shahbaz Alam", profession: "Principal", description: "An B.Ed qualified staff. For further details, mail him on shahbazalam60699@gmail.com", facebook: '', twitter: '', googlePlus: '', linkedin: ''},
-    {image: "assets/img/avatar/lg/4.jpg", name: "Staff of J.B.U.A", profession: "Teachers at J.B.U.A", description: "An B.Ed qualified staff. For further details contact us or visit us at J.B.U. Academy", facebook: '', twitter: '', googlePlus: '', linkedin: ''}
-  ];
+    {image: "assets/img/proprietress.jpeg", name: "Mrs Mary Itodo", profession: "Proprietress", description: "A qualified educationist. For further details contact us or visit us at Marythan Int'l School", facebook: '', twitter: '', googlePlus: '', linkedin: ''},
+    {image: "assets/img/teacher1.png", name: "Mrs Victoria", profession: "Head Teacher", description: "An B.Ed qualified staff. For further details contact us or visit us at Marythan Int'l School", facebook: '', twitter: '', googlePlus: '', linkedin: ''},
+    ];
 
   constructor() { }
 
